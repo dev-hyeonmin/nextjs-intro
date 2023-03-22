@@ -6,7 +6,6 @@ export default function App({ Component, pageProps }) {
         <>
             <Layout>
                 <Component {...pageProps} />
-                <span>Hello :)</span>
             </Layout>
         </>
     )
